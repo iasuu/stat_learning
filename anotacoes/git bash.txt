@@ -1,0 +1,14 @@
+py -m venv env
+	Criação de uma env no python
+
+source  env/Scripts/activate
+	Activate a env
+
+deactivate
+	Desativa a env	
+
+pip freeze > requirements.txt
+	Joga os pacotes para um txt chamado requirements
+
+pip install -r requirements.txt 
+	instala os pacotes guardados no txt requirements
